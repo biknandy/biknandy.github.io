@@ -1,0 +1,343 @@
+
+body, html {
+  font-family: 'Open Sans', sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  color: rgba(255, 255, 255, 0.75);
+  background-color: #212529;
+  width: 100% !important;
+  height: 100% !important;
+  padding-top: 50px;
+
+}
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    margin-bottom: 30px;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+h2 {
+  line-height: 20px;
+  margin: 0;
+  color: #1DB954;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+h3, h4 {
+  color: #1DB954;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h5 {
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+p {
+  font-size: 15px;
+}
+
+p.intro {
+  font-size: 16px;
+  margin: 12px 0 0;
+  line-height: 24px;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: #1DB954;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+  display: block;
+}
+
+ul, ol {
+  padding: 0;
+  webkit-padding: 0;
+  moz-padding: 0;
+}
+
+/* Navigation */
+#menu {
+  transition: all 0.8s;
+}
+
+#menu.navbar-default {
+  background-color: #121212;
+  border-color: #121212;
+}
+
+#menu a.navbar-brand {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#menu a.navbar-brand i.fa {
+  color: #1DB954;
+}
+
+#menu.navbar-default .navbar-nav>li>a {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+#menu.navbar-default .navbar-nav>li>a:hover {
+  color: #1DB954;
+}
+
+.on {
+  background-color: #121212 !important;
+  padding: 0 !important;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  color: #1DB954 !important;
+  background-color: transparent;
+}
+
+.navbar-toggle {
+  border-radius: 0;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #1DB954;
+  border-color: #1DB954;
+}
+
+.navbar-default .navbar-toggle:hover>.icon-bar {
+  background-color: #121212;
+}
+
+.btn-default {
+  color: #1DB954;
+  background-color: transparent;
+  border: 2px solid #1DB954;
+  padding: 12px 20px;
+  margin: 0;
+  font-size: 15px;
+  border-radius: 0;
+  text-transform: uppercase;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
+  color: #000000;
+  background-color: #1DB954;
+  border-color: #1DB954;
+}
+
+.btn:active, .btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+  outline: none;
+  outline-offset: none;
+}
+
+/* START OF TEAM PAGE */
+
+.heading-title {
+    margin-bottom: 100px;
+}
+.text-center {
+    text-align: center;
+}
+.heading-title h3 {
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+.p-top-30 {
+    padding-top: 30px;
+}
+.half-txt {
+    width: 60%;
+    margin: 0 auto;
+    display: inline-block;
+    line-height: 25px;
+    color: #7e7e7e;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.team-member, .team-member .team-img {
+    position: relative;
+}
+.team-member {
+    overflow: hidden;
+}
+.team-member, .team-member .team-img {
+    position: relative;
+}
+
+.team-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    border: 10px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.90);
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.team-member:hover .team-hover .desk {
+    top: 50%;
+}
+.team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
+    opacity: 1;
+}
+.team-hover .desk {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    opacity: 0;
+    -webkit-transform: translateY(-55%);
+    -ms-transform: translateY(-55%);
+    transform: translateY(-55%);
+    -webkit-transition: all 0.3s 0.2s;
+    transition: all 0.3s 0.2s;
+    padding: 0 20px;
+}
+.desk, .desk h4, .team-hover .s-link a {
+    text-align: center;
+    color: #222;
+}
+.team-member:hover .team-hover .s-link {
+    bottom: 10%;
+}
+.team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
+    opacity: 1;
+}
+.team-hover .s-link {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    text-align: center;
+    -webkit-transform: translateY(45%);
+    -ms-transform: translateY(45%);
+    transform: translateY(45%);
+    -webkit-transition: all 0.3s 0.2s;
+    transition: all 0.3s 0.2s;
+    font-size: 35px;
+}
+.desk, .desk h4, .team-hover .s-link a {
+    text-align: center;
+    color: #222;
+}
+.team-member .s-link a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 16px;
+}
+.team-title {
+    position: static;
+    padding: 20px 0;
+    display: inline-block;
+    letter-spacing: 2px;
+    width: 100%;
+}
+.team-title h5 {
+    margin-bottom: 0px;
+    display: block;
+    text-transform: uppercase;
+}
+.team-title span {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #a5a5a5;
+    letter-spacing: 1px;
+}
+
+/* END OF TEAM PAGE */
+
+/* Footer Section*/
+#footer {
+  background: #121212;
+  padding: 25px 0 20px 0;
+}
+
+#footer p {
+  font-size: 13px;
+}
+
+#footer a {
+  color: #aaa;
+}
+
+#footer a:hover {
+  color: #1DB954;
+}
+
+#page-container {
+    min-height: 100%;
+    height: 100%;
+    margin: 0 auto -2.5rem; /* the bottom margin is the negative value of the footer's height */
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .intro H1 {
+    font-size: 42px;
+  }
+
+  header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  #about img {
+    margin-bottom: 20px;
+  }
+}
