@@ -1,6 +1,12 @@
-
+@font-face {
+    font-family: 'Brothers';
+    src: url('https://biknandy.github.io/css/fonts/Brothers-Bold.woff2') format('woff2'),
+        url('https://biknandy.github.io/css/fonts/Brothers-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 body, html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Brothers';
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: rgba(255, 255, 255, 0.75);
