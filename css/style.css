@@ -1,11 +1,10 @@
 @font-face {
-  font-family: 'Brothers';
-  src: url('./css/fonts/Brothers-Bold.woff2') format('woff2'),
-      url('./css/fonts/Brothers-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
+    font-family: 'Brothers';
+    src: url('https://biknandy.github.io/css/fonts/Brothers-Bold.woff2') format('woff2'),
+        url('https://biknandy.github.io/css/fonts/Brothers-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
 }
-
 body, html {
     font-family: 'Brothers';
   text-rendering: optimizeLegibility !important;
