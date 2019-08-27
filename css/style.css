@@ -2,7 +2,7 @@
     font-family: 'Brothers';
     src: url('https://biknandy.github.io/css/fonts/Brothers-Bold.woff2') format('woff2'),
         url('https://biknandy.github.io/css/fonts/Brothers-Bold.woff') format('woff');
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;
 }
 body, html {
@@ -15,7 +15,7 @@ body, html {
 }
 
 h1 {
-  font-weight: 400;
+  font-weight: 300;
 }
 
 h2 {
@@ -42,7 +42,9 @@ h5 {
 }
 
 p {
+    font-family: 'Open Sans', sans-serif;
   font-size: 15px;
+  font-style: bold;
 }
 
 p.intro {
