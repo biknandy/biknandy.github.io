@@ -65,6 +65,7 @@
             <div class="row">
                 <div class="heading-title text-center">
                     <h2 class="text-uppercase">The Brothas </h2>
+                    <p style ="font-family: 'Brothers'">Hover over each brotha to learn more!</p>
                 </div>
 
                 <div class="col-md-3 col-sm-3">
@@ -159,3 +160,18 @@
 </body>
 
 </html>
+<script type = "text/javascript">
+    $('.team-hover').on("touchstart", function (e) {
+        'use strict'; //satisfy code inspectors
+        var link = $(this); //preselect the link
+        if (link.hasClass('hover')) {
+            return true;
+        }
+        else {
+            link.addClass('hover');
+            $('ul > li').not(this).removeClass('hover');
+            e.preventDefault();
+            return false; //extra, and to make sure the function has consistent return points
+        }
+    });
+</script>
