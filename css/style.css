@@ -168,6 +168,7 @@ ul, ol {
   font-size: 15px;
   border-radius: 0;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {

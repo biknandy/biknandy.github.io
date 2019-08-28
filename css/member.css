@@ -14,6 +14,7 @@ body, html {
   width: 100% !important;
   height: 100% !important;
   padding-top: 50px;
+  padding-bottom: 10px;
 
 }
 html{
@@ -21,9 +22,9 @@ html{
     min-height: 100%;
 }
 
-body{
+/* body{
     margin-bottom: 30px;
-}
+} */
 
 h1 {
   font-weight: 400;
@@ -312,7 +313,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* Footer Section*/
 #footer {
   background: #121212;
-  padding: 25px 0 20px 0;
+  padding: 25px 0 25px 0;
+  position: absolute;
+  height: 13px;
+  bottom: 0;
+  width: 100%;
 }
 
 #footer p {
