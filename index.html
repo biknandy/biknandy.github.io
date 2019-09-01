@@ -274,17 +274,17 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor apibus lornare diam commodo nibh.</p>
                 </div>
                 <div class="col-md-8 col-md-offset-2">
-                    <form name="sentMessage" id="contactForm" novalidate>
+                    <form action="https://formspree.io/email@domain.tld" method="POST" id="contactForm" novalidate>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+                                    <input type="text" id="name" class="form-control" placeholder="Name" name = "name">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+                                    <input type="email" id="email" class="form-control" placeholder="Email" name = "_replyto">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
