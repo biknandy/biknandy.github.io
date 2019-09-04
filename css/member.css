@@ -218,13 +218,13 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 .team-member, .team-member .team-img {
     position: relative;
+    height: 40vh;
+    object-fit: cover;
 }
 .team-member {
     overflow: hidden;
 }
-.team-member, .team-member .team-img {
-    position: relative;
-}
+
 
 .team-hover {
     position: absolute;
