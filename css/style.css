@@ -192,6 +192,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   outline-offset: none;
 }
 
+#logo {
+  display: inline;
+}
+
 /* Home Section */
 .intro {
   display: table;
