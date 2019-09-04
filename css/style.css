@@ -199,7 +199,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   height: auto;
   text-align: center;
   color: #fff;
-  background: url(../img/intro-bg.jpg) no-repeat center center;
+  background: url(../img/cover.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
