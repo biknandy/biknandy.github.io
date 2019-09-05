@@ -370,6 +370,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
         object-fit: cover;
     }
 
+    .team-member:hover .team-hover .desk {
+        top: 60%;
+    }
+
 }
 
 /* Media Queries */
