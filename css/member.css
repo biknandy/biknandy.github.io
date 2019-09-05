@@ -354,6 +354,15 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
     margin: 0 auto -2.5rem; /* the bottom margin is the negative value of the footer's height */
 }
 
+@media (max-width: 800px; min-width:600) {
+    .team-member, .team-member .team-img {
+        position: relative;
+        height: 20%;
+        object-fit: cover;
+    }
+
+}
+
 /* Media Queries */
 @media (max-width: 1024px) {
   .intro H1 {
@@ -370,7 +379,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   }
   .team-member, .team-member .team-img {
       position: relative;
-      height: 50vh;
+      height: 50%;
       object-fit: cover;
   }
 }
