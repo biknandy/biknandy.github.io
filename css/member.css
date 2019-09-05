@@ -364,4 +364,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   #about img {
     margin-bottom: 20px;
   }
+  .team-member, .team-member .team-img {
+      position: relative;
+      height: 50vh;
+      object-fit: cover;
+  }
 }
