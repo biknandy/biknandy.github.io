@@ -30,8 +30,12 @@ html{
     min-height: 100%;
 }
 
-img {
-    image-orientation: from-image;
+#nick{
+    transform:          rotate(270deg);
+  -ms-transform:      rotate(270deg);
+  -moz-transform:     rotate(270deg);
+  -webkit-transform:  rotate(270deg);
+  -o-transform:       rotate(270deg);
 }
 
 /* body{
