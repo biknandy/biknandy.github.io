@@ -38,9 +38,9 @@ html{
   -o-transform:       rotate(90deg);
 }
 
-/* body{
-    margin-bottom: 30px;
-} */
+#logo {
+  display: inline;
+}
 
 h1 {
   font-weight: 400;
