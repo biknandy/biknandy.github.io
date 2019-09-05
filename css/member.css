@@ -5,6 +5,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 body, html {
   font-family: 'Brothers';
   text-rendering: optimizeLegibility !important;
@@ -20,6 +21,10 @@ body, html {
 html{
     position: relative;
     min-height: 100%;
+}
+
+img {
+    image-orientation: from-image;
 }
 
 /* body{
