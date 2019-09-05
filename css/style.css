@@ -9,9 +9,10 @@
     font-family: 'BrothersRegular';
     src: url('https://brothasfom.org/css/fonts/BrothersRegular.woff2') format('woff2'),
         url('https://brothasfom.org/css/fonts/BrothersRegular.woff') format('woff');
-    font-weight: normal;
+    font-weight: 500;
     font-style: normal;
 }
+
 body, html {
     font-family: 'Brothers';
   text-rendering: optimizeLegibility !important;
@@ -67,7 +68,7 @@ h5 {
 p {
     font-family: 'BrothersRegular';
   font-size: 15px;
-  font-style: bold;
+  font-style: normal;
 }
 
 p.intro {
