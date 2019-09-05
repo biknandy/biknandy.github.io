@@ -42,6 +42,15 @@ html{
   display: inline;
 }
 
+.logo {
+  display: block;
+  text-indent: -9999px;
+  width: 20px;
+  height: 20px;
+  /* background: url(kiwi.svg);
+  background-size: 20px 20px; */
+}
+
 h1 {
   font-weight: 400;
 }
