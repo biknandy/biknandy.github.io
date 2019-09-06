@@ -60,9 +60,9 @@ h3, h4 {
 }
 
 h5 {
-  text-transform: uppercase;
-  font-weight: 700;
-  line-height: 20px;
+    font-family: 'BrothersRegular';
+  font-weight: 400;
+  font-size: 20px;
 }
 
 p {
@@ -83,6 +83,10 @@ a {
 a:hover, a:focus {
   text-decoration: none;
   color: #1DB954;
+}
+
+#audition-link:hover, #audition-link:focus{
+    color: black;
 }
 
 ul, ol {
