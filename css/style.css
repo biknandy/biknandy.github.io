@@ -816,6 +816,10 @@ label {
   #about img {
     margin-bottom: 20px;
   }
+
+  .portfolio-item .hover-bg {
+    height: 30%;
+  }
 }
 /* Mobile */
 @media (max-width: 600px) {
