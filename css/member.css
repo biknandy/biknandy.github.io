@@ -90,6 +90,14 @@ a:hover, a:focus {
   color: #1DB954;
 }
 
+#audition-link{
+    color: #1DB954
+}
+
+#audition-link:hover, #audition-link:focus{
+    color: #fff;
+}
+
 ul, ol {
   list-style: none;
 }
