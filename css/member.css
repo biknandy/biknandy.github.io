@@ -52,7 +52,7 @@ h2 {
   margin: 0;
   color: #1DB954;
   margin-bottom: 30px;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 400;
   text-transform: uppercase;
   padding-bottom: 10px;
@@ -60,19 +60,19 @@ h2 {
 
 h3, h4 {
   color: #1DB954;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 400;
 }
 
 h5 {
   text-transform: uppercase;
   font-weight: 700;
-  line-height: 20px;
+  line-height: 23px;
 }
 
 p {
     font-family: "BrothersRegular";
-  font-size: 15px;
+  font-size: 17px;
 }
 
 p.intro {
@@ -100,6 +100,10 @@ a:hover, a:focus {
 
 ul, ol {
   list-style: none;
+}
+
+.blackHover .blackHover:hover{
+  color: "#000000" !important;
 }
 
 .clearfix:after {

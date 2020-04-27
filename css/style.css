@@ -47,7 +47,7 @@ h2 {
   margin: 0;
   color: #1DB954;
   margin-bottom: 30px;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 400;
   text-transform: uppercase;
   padding-bottom: 10px;
@@ -55,19 +55,19 @@ h2 {
 
 h3, h4 {
   color: #1DB954;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 400;
 }
 
 h5 {
     font-family: 'BrothersRegular';
   font-weight: 400;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 p {
-    font-family: 'BrothersRegular';
-  font-size: 15px;
+  font-family: 'BrothersRegular';
+  font-size: 17px;
 }
 
 p.intro {
@@ -146,7 +146,7 @@ ul, ol {
 #menu.navbar-default .navbar-nav>li>a {
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.8);
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 1px;
 }
 
@@ -183,7 +183,7 @@ ul, ol {
   border: 2px solid #1DB954;
   padding: 12px 20px;
   margin: 0;
-  font-size: 15px;
+  font-size: 19px;
   border-radius: 0;
   text-transform: uppercase;
   text-align: center;
@@ -243,7 +243,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 .intro H1 {
-  font-size: 60px;
+  font-size: 90px;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: rgba(255, 255, 255, 0.9);
@@ -255,7 +255,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 .intro .intro-text p {
-  font-size: 18px;
+  font-size: 25px;
   margin-bottom: 40px;
   margin-top: 20px;
   text-transform: uppercase;
@@ -276,6 +276,10 @@ header .intro-text {
 #services h4 {
   color: #1DB954;
   text-transform: uppercase;
+}
+
+#services p {
+  color: white;
 }
 
 #services i.fa {
@@ -805,7 +809,7 @@ label {
 /* Media Queries */
 @media (max-width: 1024px) {
   .intro H1 {
-    font-size: 42px;
+    font-size: 60px;
   }
 
   header .intro-text {
