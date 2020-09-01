@@ -3120,12 +3120,12 @@ fieldset[disabled] .btn-black:active,
 .btn-black.disabled.active,
 .btn-black[disabled].active,
 fieldset[disabled] .btn-black.active {
-  background-color: #fff;
-  border-color: #ccc;
+  background-color: #000;
+  border-color: #000;
 }
 .btn-black .badge {
-  color: #fff;
-  background-color: #333;
+  color: #000;
+  background-color: #000;
 }
 .btn-primary {
   color: #fff;

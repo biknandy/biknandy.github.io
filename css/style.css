@@ -196,9 +196,9 @@ ul, ol {
 }
 
 .btn-black {
-  color: #000;
+  color: #000000;
   background-color: transparent;
-  border: 2px solid #000;
+  border: 2px solid #000000;
   padding: 12px 20px;
   margin: 0;
   font-size: 19px;
@@ -209,8 +209,8 @@ ul, ol {
 
 .btn-black:hover, .btn-black:focus, .btn-black.focus, .btn-black:active, .btn-black.active {
   color: #1db954;
-  background-color: #000;
-  border-color: #000;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .btn:active, .btn.active {
