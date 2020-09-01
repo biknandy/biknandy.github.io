@@ -195,6 +195,24 @@ ul, ol {
   border-color: #1DB954;
 }
 
+.btn-black {
+  color: #000;
+  background-color: transparent;
+  border: 2px solid #000;
+  padding: 12px 20px;
+  margin: 0;
+  font-size: 19px;
+  border-radius: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.btn-black:hover, .btn-black:focus, .btn-black.focus, .btn-black:active, .btn-black.active {
+  color: #1db954;
+  background-color: #000;
+  border-color: #000;
+}
+
 .btn:active, .btn.active {
   background-image: none;
   outline: 0;
