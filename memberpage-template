@@ -2,6 +2,8 @@
             <!-- USE THIS TEMPLATE FOR EACH NEW ROW. REPLACE NAME/MAJOR/PARTS/POSITION/QUOTE PLACEHOLDER -->
 
             <!-- NEW ROW EVERY 4 MEMBERS -->
+            <!-- LIST NAMES HERE FOR QUICK REFERENCE -->
+            <!-- NAME; NAME; NAME; NAME -->
             <div class = "row" style = "margin-top:50px;">
                 <!-- NEW MEMBER HERE -->
 
@@ -88,3 +90,7 @@
                 </div>
 
             </div>
+
+
+
+
